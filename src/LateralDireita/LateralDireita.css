@@ -1,0 +1,70 @@
+.perfil {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.sugestoes-header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.sugestao-item {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 15px;
+    margin-left: 30px;
+    margin-top: 15px;
+}
+
+
+.foto-perfil {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+
+.nome {
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.descricao {
+    font-size: 12px;
+    color: gray;
+}
+
+a {
+    margin-left: auto;
+    color: #0095f6;
+    font-size: 12px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.foto-perfil-thomas {
+    width: 67px;
+    height: 67px;
+    border-radius: 50%;
+}
+
+
+.nome_perfil {
+    font-weight: bold;
+    font-size: 17px;
+}
+
+.centero{
+    margin-left: 30px;
+}
+
+a:hover {
+    color: #0765a3;
+    cursor: pointer;
+}
+
+

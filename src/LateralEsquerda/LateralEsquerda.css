@@ -1,0 +1,33 @@
+.logoInstagram {
+    width: 20%;
+    margin: 3vh 4vw;
+    transform: rotate(180deg);
+}
+
+.barra{
+    margin-top: 15px;
+    
+}
+
+
+.barra:hover{
+     opacity: 0.6;
+    cursor: pointer;
+}
+ 
+.icone:hover {
+    opacity: 0.6;
+    cursor: pointer;
+}
+
+
+.LateralEsquerda li {
+    list-style: none;
+    margin: 3vw;
+    margin-top: 55.5px;
+}
+
+.LateralEsquerda li .menu {
+    font-weight: bold;
+}
+

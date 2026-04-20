@@ -1,0 +1,117 @@
+.Post {
+    border: 1px solid #ccc;
+    margin-bottom: 20px;
+    background-color: #fff;
+    margin-top: 10px;
+}
+
+.story-border-sem-nd img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    border: 3px solid white;
+    display: block;
+    box-sizing: border-box;
+}
+
+.story-border-sem-nd {
+    width: 85px;
+    height: 85px;
+    border-radius: 50%;
+    padding: 3px;
+    display: inline-block;
+    flex-shrink: 0;
+}
+
+.Post .post_header {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border: 1px solid #eee;
+    gap: 10px;
+}
+
+.Post .post_header img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.Post .post_image img {
+    width: 50%;
+    height: 100%;
+    display: block;
+    margin-left: 150px;
+}
+
+.storie-name {
+    font-size: 14px;
+    text-align: center;
+    max-width: 100px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    margin-top: 2px;
+}
+
+.Post .post_footer {
+    display: flex;
+    padding: 10px;
+    border-top: 1px solid #eee;
+    gap: 20px;
+}
+
+.Post .post_footer button {
+    background-color: transparent;
+    border: none;
+    color: #3897f0;
+    font-weight: bold;
+    cursor: pointer;
+    margin: 2px;
+}
+
+.Post .likes {
+    margin-top: 3.5px;
+}
+
+.lista {
+    margin-top: 4px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    overflow-x: auto;
+    overflow-y: hidden;
+    gap: 10px;
+    padding-bottom: 20px;
+}
+
+.story-border {
+    width: 85px;
+    height: 85px;
+    border-radius: 50%;
+    padding: 3px;
+    background: linear-gradient(45deg, #ffaa00, #ff5500, #c4007a, #3d00b7);
+    display: inline-block;
+    flex-shrink: 0;
+        transition: transform 0.1s ease;
+
+}
+
+.story-border img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    border: 3px solid white;
+    display: block;
+    box-sizing: border-box;
+}
+
+
+
+.story-border:hover {
+    transform: scale(1.1);
+}
+.story-border-sem-nd:hover {
+    transform: scale(1.1);
+}

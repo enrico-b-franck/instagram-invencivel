@@ -1,0 +1,21 @@
+.App {
+  display: flex;
+  flex-direction: row;
+  height: 100vh;
+}
+
+.LateralEsquerda {
+  width: 20vw;
+ 
+}
+
+.Principal {
+
+  width: 50vw;
+}
+
+.LateralDireita {
+
+  width: 30vw;
+}
+
